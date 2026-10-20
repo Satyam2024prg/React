@@ -1,0 +1,43 @@
+.card {
+  margin: 5px;
+  height: 200px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card .profile_pic {
+  height: 200px;
+  width: 200px;
+}
+
+.card .data .name {
+  color: red;
+}
+
+.card .data .id {
+  color: rgb(59, 129, 164);
+}
+
+.card .loggedIn {
+  border: 1px solid rgb(241, 239, 239);
+  border-radius: 50%;
+  background-color: green;
+  height: 20px;
+  width: 20px;
+  margin-right: 50px;
+  margin-bottom: 150px;
+}
+
+.card .loggedOut {
+  border: 1px solid rgb(241, 239, 239);
+  border-radius: 50%;
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  margin-right: 50px;
+  margin-bottom: 150px;
+}
