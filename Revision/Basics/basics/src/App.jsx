@@ -2,6 +2,8 @@ import './App.css';
 import Header from './components/header.jsx'
 import Card from './components/card.jsx'
 import List from './components/list.jsx'
+import Button from './hooks/useStateHook.jsx'
+import UpdateObject from './components/updateObject.jsx';
 
 function App() {
 
@@ -26,6 +28,9 @@ function App() {
     <Card id={2} logged={false}></Card>
     <List items={fruits} category="Fruits"></List>
     <List items={vegetables} category="Vegetables"></List>
+
+    <Button></Button>
+    <UpdateObject></UpdateObject>
   </>
 }
 
