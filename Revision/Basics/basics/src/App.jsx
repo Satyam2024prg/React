@@ -4,6 +4,9 @@ import Card from './components/card.jsx'
 import List from './components/list.jsx'
 import Button from './hooks/useStateHook.jsx'
 import UpdateObject from './components/updateObject.jsx';
+import Timer from './components/timer.jsx';
+import ComponentA from './components/component_a.jsx';
+import InputBox from './hooks/useRefHook.jsx';
 
 function App() {
 
@@ -23,6 +26,9 @@ function App() {
     { id: 5, name: 'Beans' }
   ]
   return <>
+    <Timer></Timer>
+    <InputBox></InputBox>
+    <ComponentA></ComponentA>
     <Header></Header>
     <Card name="Alex" id={1} logged={true}></Card>
     <Card id={2} logged={false}></Card>
@@ -31,6 +37,7 @@ function App() {
 
     <Button></Button>
     <UpdateObject></UpdateObject>
+
   </>
 }
 
